@@ -1,0 +1,471 @@
+{
+    "facultades": [
+        {
+            "id": 1,
+            "nombre": "FP-UNA San Lorenzo"
+        }
+    ],
+    "carreras": [
+        {
+            "id": 1,
+            "nombre": "Ingeniería Informática",
+            "facultad": 1
+        }
+    ],
+    "materias": [
+        {
+            "id": 1,
+            "nombre": "Fundamentos de Matemáticas",
+            "semestre": 1,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 2,
+            "nombre": "Matemática discreta",
+            "semestre": 1,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 3,
+            "nombre": "Organización y arquitectura de  computadoras I",
+            "semestre": 1,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 4,
+            "nombre": "Algoritmos y estructuras de  datos I",
+            "semestre": 1,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 5,
+            "nombre": "Expresión oral y escrita",
+            "semestre": 1,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 6,
+            "nombre": "Emprendedorismo",
+            "semestre": 1,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 7,
+            "nombre": "Álgebra lineal",
+            "semestre": 2,
+            "plan_estudio": 1,
+            "dependencias": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "Cálculo I",
+            "semestre": 2,
+            "plan_estudio": 1,
+            "dependencias": [
+                1
+            ]
+        },
+        {
+            "id": 9,
+            "nombre": "Organización y arquitectura de computadoras II",
+            "semestre": 2,
+            "plan_estudio": 1,
+            "dependencias": [
+                3
+            ]
+        },
+        {
+            "id": 10,
+            "nombre": "Lenguajes de programación I",
+            "semestre": 2,
+            "plan_estudio": 1,
+            "dependencias": [
+                2,
+                4
+            ]
+        },
+        {
+            "id": 11,
+            "nombre": "Algoritmos y estructuras de datos II",
+            "semestre": 2,
+            "plan_estudio": 1,
+            "dependencias": [
+                4
+            ]
+        },
+        {
+            "id": 12,
+            "nombre": "Inglés",
+            "semestre": 2,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 13,
+            "nombre": "Lógica para Ciencias de la Computación",
+            "semestre": 3,
+            "plan_estudio": 1,
+            "dependencias": [
+                2,
+                11
+            ]
+        },
+        {
+            "id": 14,
+            "nombre": "Cálculo II",
+            "semestre": 3,
+            "plan_estudio": 1,
+            "dependencias": [
+                8
+            ]
+        },
+        {
+            "id": 15,
+            "nombre": "Física 1",
+            "semestre": 3,
+            "plan_estudio": 1,
+            "dependencias": [
+                1
+            ]
+        },
+        {
+            "id": 16,
+            "nombre": "Lenguaje de programación II",
+            "semestre": 3,
+            "plan_estudio": 1,
+            "dependencias": [
+                10,
+                11
+            ]
+        },
+        {
+            "id": 17,
+            "nombre": "Algoritmos y estructuras de datos III",
+            "semestre": 3,
+            "plan_estudio": 1,
+            "dependencias": [
+                11
+            ]
+        },
+        {
+            "id": 18,
+            "nombre": "Contabilidad",
+            "semestre": 3,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 19,
+            "nombre": "Probabilidades y Estadística",
+            "semestre": 4,
+            "plan_estudio": 1,
+            "dependencias": [
+                14
+            ]
+        },
+        {
+            "id": 20,
+            "nombre": "Cálculo III",
+            "semestre": 4,
+            "plan_estudio": 1,
+            "dependencias": [
+                14
+            ]
+        },
+        {
+            "id": 21,
+            "nombre": "Física 2",
+            "semestre": 4,
+            "plan_estudio": 1,
+            "dependencias": [
+                15
+            ]
+        },
+        {
+            "id": 22,
+            "nombre": "Redes de Computadoras I",
+            "semestre": 4,
+            "plan_estudio": 1,
+            "dependencias": [
+                3,
+                17
+            ]
+        },
+        {
+            "id": 23,
+            "nombre": "Sistemas Operativos",
+            "semestre": 4,
+            "plan_estudio": 1,
+            "dependencias": [
+                9,
+                17
+            ]
+        },
+        {
+            "id": 24,
+            "nombre": "Economía y Finanzas",
+            "semestre": 4,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 25,
+            "nombre": "Física 3",
+            "semestre": 5,
+            "plan_estudio": 1,
+            "dependencias": [
+                21
+            ]
+        },
+        {
+            "id": 26,
+            "nombre": "Investigación de Operaciones I",
+            "semestre": 5,
+            "plan_estudio": 1,
+            "dependencias": [
+                7,
+                14
+            ]
+        },
+        {
+            "id": 27,
+            "nombre": "Redes de Computadoras II",
+            "semestre": 5,
+            "plan_estudio": 1,
+            "dependencias": [
+                9,
+                21,
+                22
+            ]
+        },
+        {
+            "id": 28,
+            "nombre": "Lenguajes de programación III",
+            "semestre": 5,
+            "plan_estudio": 1,
+            "dependencias": [
+                16,
+                23
+            ]
+        },
+        {
+            "id": 29,
+            "nombre": "Sistemas distribuidos",
+            "semestre": 5,
+            "plan_estudio": 1,
+            "dependencias": [
+                16,
+                22,
+                23
+            ]
+        },
+        {
+            "id": 30,
+            "nombre": "Técnicas de Organización y Métodos",
+            "semestre": 5,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 31,
+            "nombre": "Métodos numéricos",
+            "semestre": 6,
+            "plan_estudio": 1,
+            "dependencias": [
+                7,
+                20
+            ]
+        },
+        {
+            "id": 32,
+            "nombre": "Estructura de los lenguajes",
+            "semestre": 6,
+            "plan_estudio": 1,
+            "dependencias": [
+                28
+            ]
+        },
+        {
+            "id": 33,
+            "nombre": "Ingeniería de software I",
+            "semestre": 6,
+            "plan_estudio": 1,
+            "dependencias": [
+                16
+            ]
+        },
+        {
+            "id": 34,
+            "nombre": "Bases de datos I",
+            "semestre": 6,
+            "plan_estudio": 1,
+            "dependencias": [
+                13,
+                16
+            ]
+        },
+        {
+            "id": 35,
+            "nombre": "Física 4",
+            "semestre": 6,
+            "plan_estudio": 1,
+            "dependencias": [
+                21
+            ]
+        },
+        {
+            "id": 36,
+            "nombre": "Matemática Aplicada",
+            "semestre": 7,
+            "plan_estudio": 1,
+            "dependencias": [
+                7,
+                13
+            ]
+        },
+        {
+            "id": 37,
+            "nombre": "Investigación de Operaciones II",
+            "semestre": 7,
+            "plan_estudio": 1,
+            "dependencias": [
+                26,
+                31
+            ]
+        },
+        {
+            "id": 38,
+            "nombre": "Ingeniería de software II",
+            "semestre": 7,
+            "plan_estudio": 1,
+            "dependencias": [
+                27,
+                33,
+                34
+            ]
+        },
+        {
+            "id": 39,
+            "nombre": "Optativa 1",
+            "semestre": 7,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 40,
+            "nombre": "Electiva 1",
+            "semestre": 7,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 41,
+            "nombre": "Ingeniería de software III",
+            "semestre": 8,
+            "plan_estudio": 1,
+            "dependencias": [
+                38
+            ]
+        },
+        {
+            "id": 42,
+            "nombre": "Bases de datos II",
+            "semestre": 8,
+            "plan_estudio": 1,
+            "dependencias": [
+                34
+            ]
+        },
+        {
+            "id": 43,
+            "nombre": "Optativa 2",
+            "semestre": 8,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 44,
+            "nombre": "Electiva 2",
+            "semestre": 8,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 45,
+            "nombre": "Electiva 3",
+            "semestre": 8,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 46,
+            "nombre": "Gestión de Centro de Cómputos",
+            "semestre": 9,
+            "plan_estudio": 1,
+            "dependencias": [
+                41
+            ]
+        },
+        {
+            "id": 47,
+            "nombre": "Optativa 3",
+            "semestre": 9,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 48,
+            "nombre": "Electiva 4",
+            "semestre": 9,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 49,
+            "nombre": "Electiva 5",
+            "semestre": 9,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 50,
+            "nombre": "Proyecto Final de Tesis",
+            "semestre": 9,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 51,
+            "nombre": "Diseño de compiladores",
+            "semestre": 10,
+            "plan_estudio": 1,
+            "dependencias": [
+                17,
+                32
+            ]
+        },
+        {
+            "id": 52,
+            "nombre": "Electiva 6",
+            "semestre": 10,
+            "plan_estudio": 1,
+            "dependencias": []
+        },
+        {
+            "id": 53,
+            "nombre": "Electiva 6",
+            "semestre": 10,
+            "plan_estudio": 1,
+            "dependencias": []
+        }
+    ]
+}
