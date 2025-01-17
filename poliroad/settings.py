@@ -142,7 +142,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # que servidores pueden hacer peticiones (cors authorization)
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "poliroadapi.onrender.com"
+    "https://poliroadapi.onrender.com"
 ]
 
 
