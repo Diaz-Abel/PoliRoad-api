@@ -1,7 +1,0 @@
-# Backend
-django
-djangorestframework
-django-cors-headers
-coreapi
-python-dotenv
-
