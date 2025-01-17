@@ -25,7 +25,8 @@ dotenv.load_dotenv()
 SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG", "False") == "True"
+DEBUG = os.getenv("DEBUG", "False").lower() in ("true", "1", "t")
+print(f"DEBUG is set to: {DEBUG}")
 
 ALLOWED_HOSTS = ["poliroadapi.onrender.com","localhost", "127.0.0.1"]
 
